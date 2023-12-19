@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "{{ cookiecutter.repo_name }}"
+version = "0.1.0"
+authors = ["{{ cookiecutter.author_name }}"]
+description = "{{ cookiecutter.description }}"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+click = "*"
+Sphinx = "*"
+python-dotenv = ">=0.5.1"
+awscli = "*"
+
+[tool.poetry.dev-dependencies]
+ruff = "*"
+pytest = "*"
+pytest-cov = "*"
